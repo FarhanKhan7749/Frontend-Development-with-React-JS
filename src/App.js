@@ -29,18 +29,18 @@ function App() {
   return (
     <div>
       <h2>Expense Items</h2>
-      {/* <ExpenseItems title={expenses[0].title} LocationOfExpenditure={expenses[0].LocationOfExpenditure} amount={expenses[0].amount} date={expenses[0].date}></ExpenseItems>
+      <ExpenseItems title={expenses[0].title} LocationOfExpenditure={expenses[0].LocationOfExpenditure} amount={expenses[0].amount} date={expenses[0].date}></ExpenseItems>
       <ExpenseItems title={expenses[1].title} LocationOfExpenditure={expenses[1].LocationOfExpenditure} amount={expenses[1].amount} date={expenses[1].date}></ExpenseItems>
       <ExpenseItems title={expenses[2].title} LocationOfExpenditure={expenses[2].LocationOfExpenditure} amount={expenses[2].amount} date={expenses[2].date}></ExpenseItems>
-      <ExpenseItems title={expenses[3].title} LocationOfExpenditure={expenses[3].LocationOfExpenditure} amount={expenses[3].amount} date={expenses[3].date}></ExpenseItems> */}
-      {expenses.map(expense => (
+      <ExpenseItems title={expenses[3].title} LocationOfExpenditure={expenses[3].LocationOfExpenditure} amount={expenses[3].amount} date={expenses[3].date}></ExpenseItems>
+      {/* {expenses.map(expense => (
         <ExpenseItems
         title={expense.title}
         LocationOfExpenditure={expenses.LocationOfExpenditure}
         amount={expense.amount}
         date={expense.date}
         ></ExpenseItems>
-      ))}
+      ))} */}
     </div>
   );
 }
